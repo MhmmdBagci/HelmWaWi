@@ -1,7 +1,11 @@
+# Importiert den Einkaufswagen und das Modul für Dateioperationen 
 from ShoppingCart.shoppingCart import shoppingCart
 import os
+
+# Speicherpfad für die Benutzerdaten
 path = os.path.join("./../", "user.txt")
 
+#
 class user():
     def __init__(self, email, name, password, adresse, tel):
         self.shoppingCart = shoppingCart()
